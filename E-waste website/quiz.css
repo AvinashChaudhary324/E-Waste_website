@@ -1,0 +1,91 @@
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 300px;
+}
+
+html{
+  font-size: 62.5%
+}
+
+.main_div{
+  width: 100vw;
+  height: 100vh;
+  background: hsl(206, 92%, 94%);
+  display: grid;
+  place-items: center
+}
+
+.inner{
+  background: white;
+  padding: 3rem 8rem;
+  width: 50vw;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 1rem -0.7rem rgba(0,0,0,0.4)
+}
+
+.inner h2{
+  font-size: 3rem;
+  font-weight: 400px;
+  margin: 1rem 0 4rem 0 ;
+}
+
+.inner li{
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  list-style: none
+}
+
+input{
+  cursor: pointer
+}
+
+#submit, .btn{
+  padding: 1rem 3rem;
+  outline: none;
+  font-size: 2rem;
+  display: block;
+  margin: auto;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  background-color: #74b9ff;
+  margin-top: 4rem;
+  border-radius: 1rem
+}
+
+#submit:hover{
+  background-color: darkblue
+}
+
+#scores{
+  margin-top: 3rem;
+  padding: 3rem 4rem;
+  background-color: #dfe6e9;
+  box-shadow: 0 1rem 1rem -0.7rem rgba(0,0,0,0.4)
+}
+
+#scores h3{
+  font-size: 3rem;
+  text-align: center
+}
+
+#scores .btn{
+  margin-top: 2rem;
+  background-color: #55efc4;
+  color:black;
+}
+
+#scores .btn:hover{
+  background-color: #00b894;
+  color:white;
+  cursor: pointer;
+}
+
+.points{
+  display: none
+}
